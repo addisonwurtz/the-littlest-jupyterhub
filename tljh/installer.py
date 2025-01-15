@@ -503,9 +503,9 @@ def ensure_config_yaml(plugin_manager):
 
 
 def main():
-    from .log import init_logging
+    #from .log import init_logging
 
-    init_logging()
+    #init_logging()
 
     argparser = argparse.ArgumentParser()
     argparser.add_argument(
